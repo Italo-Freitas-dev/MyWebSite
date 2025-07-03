@@ -13,8 +13,10 @@ function abrirGitHub(){
     const link = `https://github.com/Italo-Freitas-dev`;
     window.open(link, "_blank");
 }
-function abrirOutros(){
-    
+
+function abrirLinkedin(){
+    const link = `https://www.linkedin.com/in/italo-mf`;
+    window.open(link, "_blank");
 }
 
 function enviarEmail() {
