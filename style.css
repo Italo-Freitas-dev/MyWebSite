@@ -1,0 +1,25 @@
+body {
+  overflow-x: hidden;
+  background-color: #bdbbbb;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+h4{
+    text-align: center;
+    font-size: 32;
+}
+iframe#frame{
+	width: 1200px;
+	height: 1200px;
+	border: none;
+}
