@@ -43,7 +43,7 @@ function escolherEnvioEmail() {
     popup.style.borderRadius = "12px";
     popup.innerHTML = `
       <h5>Escolha como deseja enviar o e-mail:</h5>
-      <button class="btn btn-outline-dark my-2" onclick="enviarEmailWindows()">Enviar pelo Windows</button>
+      <button class="btn btn-outline-primary my-2" onclick="enviarEmailWindows()">Enviar pelo Windows</button>
       <button class="btn btn-outline-success my-2" onclick="enviarEmailGmail()">Enviar pelo Gmail</button><br>
       <button class="btn btn-sm btn-secondary mt-2" onclick="fecharPopup()">Cancelar</button>
     `;
