@@ -12,100 +12,104 @@
 
 </head>
 <body>
-    <div style="height: 50vh;" class="row align-items-center">
-        <div class="row justify-content-center"> <!-- Cabeçalho -->
-            <div class="col-4">
-                <div class="card card-body shadow mb-4 mt-5">
-                    <h1>Olá! Eu sou o Ítalo</h1>
-                    <h3>Estudante de Ciências da Computação</h3>
-                </div>    
-            </div>            
-        </div>
-        <div class="container"> <!-- Checkbox para o modo escuro -->
-            <div class="row" style="position: absolute; top: 20px; right: 20px;">
-                <input type="checkbox" class="checkbox" id="checkbox">
-                <label for="checkbox" class="checkbox-label">
-                    <i class="fas fa-moon"></i>
-                    <i class="fas fa-sun"></i>
-                    <span class="ball"></span>
-                </label>
+    <div class="container px-3">
+        <div class="align-items-center">
+            <div class="row justify-content-center"> <!-- Cabeçalho -->
+                <div class="col-12 col-md-6 mt-3" style="max-width: 600px;">
+                    <div class="card card-body shadow mb-4 mt-5">
+                        <h1>Olá! Eu sou o Ítalo</h1>
+                        <h3>Estudante de Ciências da Computação</h3>
+                    </div>    
+                </div>            
             </div>
-    
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-4">
-                <div class="card shadow mb-4" style="width: 38.5rem;">
-                    <div class="card-header">
-                        <h2>Linguagens / Frameworks</h2>
+            <div class="container"> <!-- Checkbox para o modo escuro -->
+                <div class="row" style="position: absolute; top: 20px; right: 28px;">
+                    <input type="checkbox" class="checkbox" id="checkbox">
+                    <label for="checkbox" class="checkbox-label">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                        <span class="ball"></span>
+                    </label>
+                </div>
+        
+            </div>
+            <div class="row justify-content-center"> <!-- Linguagens e frameworks-->
+                <div class="col-12 col-md-6" style="max-width: 600px;">
+                    <div class="card shadow mb-4 w-100" style="max-width: 600px;">
+                        <div class="card-header">
+                            <h2>Linguagens / Frameworks</h2>
+                        </div>
+                        <ul class="list-group list-group-horizontal-md">
+                            <li class="list-group-item list-group-item-action border border-info"><h5>Python</h5></li>
+                            <li class="list-group-item list-group-item-action border border-info"><h5>HTML/CSS</h5></li>
+                            <li class="list-group-item list-group-item-action border border-info"><h5>JavaScript</h5></li>
+                            <li class="list-group-item list-group-item-action border border-info"><h5>C/C++/C#</h5></li>                    
+                        </ul>     
+                        <ul class="list-group list-group-horizontal-md">
+                            <li class="list-group-item list-group-item-action border border-info"><h5>Bootstrap</h5></li>
+                            <li class="list-group-item list-group-item-action border border-info"><h5>Tailwind</h5></li>
+                        </ul>
                     </div>
-                    <ul class="list-group list-group-horizontal">
-                        <li href="#" class="list-group-item list-group-item-action border border-info flex-fill" style="text-align: center;"><h5>Python</h5></li>
-                        <li href="#" class="list-group-item list-group-item-action border border-info flex-fill" style="text-align: center;"><h5>HTML/CSS</h5></li>
-                        <li href="#" class="list-group-item list-group-item-action border border-info flex-fill" style="text-align: center;"><h5>JavaScript</h5></li>
-                        <li href="#" class="list-group-item list-group-item-action border border-info flex-fill" style="text-align: center;"><h5>C/C++/C#</h5></li>                    
-                    </ul>     
-                    <ul class="list-group list-group-horizontal">
-                        <li href="#" class="list-group-item list-group-item-action border border-info flex-fill " style="text-align: center;"><h5>Bootstrap</h5></li>
-                        <li href="#" class="list-group-item list-group-item-action border border-info flex-fill " style="text-align: center;"><h5>Tailwind</h5></li>
-                    </ul>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="card shadow mb-4" style="width: 38.5rem; ">
-                    <div class="card-header">
-                        <h2>Tecnologias / Idiomas</h2>
+            <div class="row justify-content-center"> <!-- Tecnologias / Idiomas -->
+                <div class="col-12 col-md-6" style="max-width: 600px;">
+                    <div class="card shadow mb-4 w-100" style="max-width: 600px;">
+                        <div class="card-header">
+                            <h2>Tecnologias / Idiomas</h2>
+                        </div>
+                        <ul class="list-group list-group-horizontal-md">
+                            <li href="#" class="list-group-item list-group-item-action border border-info"><h5>Banco de Dados (MySQL, PostgreSQL, SQLite)</h5></li>
+                        </ul>
+                        <ul class="list-group list-group-horizontal-md">
+                            <li class="list-group-item list-group-item-action border border-info" style="flex: 0.5;"><h5>Figma</h5></li>
+                            <li class="list-group-item list-group-item-action border border-info" style="flex: 0.5;"><h5>Git</h5></li>
+                            <li class="list-group-item list-group-item-action border border-info" style="flex: 2;"><h5>Inglês avançado (Wizard, W8B)</h5></li>
+                        </ul>
                     </div>
-                    <ul class="list-group list-group-horizontal">
-                        <li href="#" class="list-group-item list-group-item-action border border-info flex-fill" style="text-align: center;"><h5>Banco de Dados (MySQL, PostgreSQL, SQLite)</h5></li>
-                    </ul>
-                    <ul class="list-group list-group-horizontal">
-                        <li href="#" class="list-group-item list-group-item-action border border-info flex-fill" style="text-align: center;"><h5>Git</h5></li>                                           
-                        <li href="#" class="list-group-item list-group-item-action border border-info flex-fill" style="text-align: center;"><h5>Figma</h5></li>                         
-                        <li href="#" class="list-group-item list-group-item-action border border-info flex-fill" style="text-align: center; width: 2000px;"><h5>Inglês avançado (Wizard, W8B)</h5></li>
-                    </ul>
                 </div>
             </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-8 ">
-                <div class="card card-body shadow mb-4">
-                    <div class="row text-center">
-                        <div class="col">
-                            <button type="button" class="btn btn-outline-info" onclick="abrirCurriculo()"><h4>Currículo</h4></button>
+            <div class="row justify-content-center"> <!-- Botões para abrir currículos e perfis -->
+                <div class="col-12 col-md-6" style="max-width: 600px;  ">
+                    <div class="card card-body shadow mb-6" style="max-width: 600px;">
+                        <div class="row g-2 justify-content-center">
+                            <div class="col-12 col-md-3">
+                                <button type="button" class="btn btn-outline-info w-100" onclick="abrirCurriculo()"><h4>Currículo</h4></button>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <button type="button" class="btn btn-outline-info w-100" onclick="abrirGitHub()"><h4>GitHub</h4></button>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <button type="button" class="btn btn-outline-info w-100" onclick="abrirLinkedin()"><h4>Linkedin</h4></button>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <a class="btn btn-outline-info w-100" href="outros.html" role="button"><h4>Outros</h4></a>
+                            </div>
                         </div>
-                        <div class="col">
-                            <button type="button" class="btn btn-outline-info" onclick="abrirGitHub()"><h4>GitHub</h4></button>
-                        </div>
-                        <div class="col">
-                            <button type="button" class="btn btn-outline-info" onclick="abrirLinkedin()"><h4>Linkedin</h4></button>
-                        </div>
-                        <div class="col">
-                            <a class="btn btn-outline-info" href="outros.html" role="button"><h4>Outros</h4></a>
-                        </div>
-                    </div>
-                </div>                                    
+                    </div>                                    
+                </div>
             </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-4 mx-auto">
-                <div class="card card-body shadow">
-                    <div class="row row text-center align-items-center">
-                        <h2>Contato</h2>
-                        <div class="col d-flex justify-content-center align-items-center mb-2">
-                            <h3 class="me-2 mb-0">E-mail: <text class="user-select-all">italomateusf1@gmail.com</p></h3>                            
-                            <button type="button" class="btn btn-outline-info" onclick="escolherEnvioEmail()">
-                                <i class="material-icons">forward_to_inbox</i>
-                            </button>
-                        </div>
-                        <div class="col d-flex justify-content-center align-items-center">
-                            <h3 class="me-2 mb-0">Whatsapp: <text class="user-select-all">(85) 9 8204-0219</text></h3>                           
-                            <button type="button" class="btn btn-outline-info" onclick="abrirWpp()">
-                                <!-- <i class="material-icons">chat_bubble</i> -->
-                                <i class="fa-brands fa-whatsapp fa-2x"></i>
-                            </button>                           
-                        </div>
-                    </div>                   
-                </div>    
+            <div class="row justify-content-center"> <!-- Contato -->
+                <div class="col-12 col-md-4" style="max-width: 600px;">
+                    <div class="card card-body shadow mt-4">
+                        <div class="row align-items-center">
+                            <h2>Contato</h2>
+                            <div class="col d-flex justify-content-center align-items-center mb-2 gap-1">
+                                <h6 class="mb-0">E-mail: <span class="user-select-all">italomateusf1@gmail.com</span></h6>                            
+                                <button type="button" class="btn btn-outline-info" onclick="escolherEnvioEmail()">
+                                    <i class="material-icons">forward_to_inbox</i>
+                                </button>
+                            </div>
+                            <div class="col d-flex justify-content-center align-items-center mb-2 gap-1">
+                                <h6 class="mb-0">Whatsapp: <span class="user-select-all">(85) 9 8204-0219</span></h6>                           
+                                <button type="button" class="btn btn-outline-info" onclick="abrirWpp()">
+                                    <!-- <i class="material-icons">chat_bubble</i> -->
+                                    <i class="fa-brands fa-whatsapp fa-2x"></i>
+                                </button>                           
+                            </div>
+                        </div>                   
+                    </div>    
+                </div>
             </div>
         </div>
     </div>

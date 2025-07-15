@@ -1,0 +1,11 @@
+body {
+    background-color: #EFEFEF;
+}
+
+i {
+    vertical-align: bottom;
+}
+.menu-ativo {
+    background-color: #000000;
+    color: white;
+}

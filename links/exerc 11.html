@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8"/>
+<title> HTML5 </title>
+
+<link rel="stylesheet" href="./estilo2.css">
+
+</head>
+<script>
+function muda(imagem){
+	document.getElementById().src=foto;
+}
+</script>
+<body>
+
+<div id="interface">
+<header id = "cabecalho">
+
+	<hgroup>
+	<h1>Aprendendo html 5</h1>
+	<h2><u>A evolução da Internet</u></h2>
+	</hgroup>
+
+	<img id="icone" src="./download.png">
+<nav id="menu">
+	<h1>Menu principal:</h1>
+	<ul>
+		<li> <a href="index.html"> home</a></li>
+		<li> <a href="exerc 6.html"> o que é html</a></li>
+		<li> <a href="exerc 7.html"> exemplo</a></li>
+		<!-- <li> <a href="exerc 10.html"> multimidia</a></li> -->
+		<li> <a href="tabela.html">tabela</a></li>
+		<li> <a href="exerc 10.html"> Trabalhando com IFrames</a></li>
+	</ul>
+</nav>
+
+</header>
+<section id="principal">
+
+<article id="ap">
+<h2>Tecnologia e Inovações</h2>
+<p>HTML5 é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet, originalmente proposto por Opera Software. É a quinta versão da linguagem HTML</p>
+
+<h2>O que é</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<figure class="imagem-legenda">
+<img src="./donwload2.png">
+	<figcaption>
+	<p>HTML 5.</p>
+	</figcaption>
+	</figure>	
+
+<h2>O que há de novo?</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+</article>
+</section>
+<aside id="lateral">
+<h2>Novidades</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</aside>
+<footer id="rodape">
+
+<h2>Testando vídeo e áudio</h2>
+<div id="midia">
+<audio id="musica" controls="controls">
+<source src="Audio.ogg" type="audio/mpeg"></source>
+</audio>
+<video id="filme" controls="controls">
+<source src="Video.mp4"></source>
+</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kHF0VXPanU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</div>
+
+<section>
+<article>
+<h3>Formulario</h3>
+<form>
+	<fieldset>
+		<legend>Identificação do Usuário</legend>
+
+		<p>Nome: <input type="text" name="tNome" id="cNome" size="15" maxlength="15" placeholder="Nome completo" /></p>
+		<p>Senha: <input type="password" name="tSenha" id="cSenha"></p>
+			<fieldset id="sexo"><legend>Sexo</legend>
+				<input type="radio" name="tSexo" id="cMasc"/><label for="cMasc">Masculino</label>
+				<input type="radio" name="tSexo" id="cFem"/><label for="cFem">Feminino</label>
+			</fieldset>
+	</fieldset>
+
+	<fieldset>
+	<legend>Msg do usuario</legend>
+	Tipo:<input type="text" name="tTipomsg" id="cTipomsg"/><br/><br/>
+	Msg:<textarea name="tMsg" id="cMsg" cols="30" rows="4"></textarea>
+	</fieldset>
+</form>
+
+</article>
+</section>
+<p>Copyright - by Ítalo</p>
+</footer>
+</body>
+</html>
