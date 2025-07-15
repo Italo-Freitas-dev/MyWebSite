@@ -33,8 +33,8 @@
                 </div>
         
             </div>
-            <div class="row justify-content-center"> <!-- Linguagens e frameworks-->
-                <div class="col-12 col-md-6" style="max-width: 600px;">
+            <div class="row justify-content-center"> 
+                <div class="col-12 col-md-6" style="max-width: 600px;"><!-- Linguagens e frameworks-->
                     <div class="card shadow mb-4 w-100" style="max-width: 600px;">
                         <div class="card-header">
                             <h2>Linguagens / Frameworks</h2>
@@ -51,9 +51,7 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div class="row justify-content-center"> <!-- Tecnologias / Idiomas -->
-                <div class="col-12 col-md-6" style="max-width: 600px;">
+                <div class="col-12 col-md-6" style="max-width: 600px;"><!-- Tecnologias / Idiomas -->
                     <div class="card shadow mb-4 w-100" style="max-width: 600px;">
                         <div class="card-header">
                             <h2>Tecnologias / Idiomas</h2>
@@ -72,17 +70,17 @@
             <div class="row justify-content-center"> <!-- Botões para abrir currículos e perfis -->
                 <div class="col-12 col-md-6" style="max-width: 600px;  ">
                     <div class="card card-body shadow mb-6" style="max-width: 600px;">
-                        <div class="row g-2 justify-content-center">
-                            <div class="col-12 col-md-3">
+                        <div class="row g-2 justify-content-center align-items-center">
+                            <div class="align-content-center col-md-3">
                                 <button type="button" class="btn btn-outline-info w-100" onclick="abrirCurriculo()"><h4>Currículo</h4></button>
                             </div>
-                            <div class="col-12 col-md-3">
+                            <div class="align-content-center col-md-3">
                                 <button type="button" class="btn btn-outline-info w-100" onclick="abrirGitHub()"><h4>GitHub</h4></button>
                             </div>
-                            <div class="col-12 col-md-3">
+                            <div class="align-content-center col-md-3">
                                 <button type="button" class="btn btn-outline-info w-100" onclick="abrirLinkedin()"><h4>Linkedin</h4></button>
                             </div>
-                            <div class="col-12 col-md-3">
+                            <div class="align-content-center col-md-3">
                                 <a class="btn btn-outline-info w-100" href="outros.html" role="button"><h4>Outros</h4></a>
                             </div>
                         </div>
@@ -90,18 +88,26 @@
                 </div>
             </div>
             <div class="row justify-content-center"> <!-- Contato -->
-                <div class="col-12 col-md-4" style="max-width: 600px;">
+                <div class="col-12 col-md-6" style="max-width: 600px;">
                     <div class="card card-body shadow mt-4">
                         <div class="row align-items-center">
                             <h2>Contato</h2>
-                            <div class="col d-flex justify-content-center align-items-center mb-2 gap-1">
-                                <h6 class="mb-0">E-mail: <span class="user-select-all">italomateusf1@gmail.com</span></h6>                            
+                            <!-- <div class="d-flex flex-wrap justify-content-center align-items-center flex-wrap mb-3">
+                                <h6 class="mb-0 me-2">E-mail: <span class="user-select-all">italomateusf1@gmail.com</span></h6>                            
                                 <button type="button" class="btn btn-outline-info" onclick="escolherEnvioEmail()">
                                     <i class="material-icons">forward_to_inbox</i>
                                 </button>
+                            </div> -->
+                            <div class="d-flex align-items-center justify-content-center mb-3 flex-nowrap">
+                                <div class="me-1 text-truncate">
+                                    <h6 class="mb-0">E-mail: <span class="user-select-all">italomateusf1@gmail.com</span></h6>
+                                </div>
+                                <button type="button" class="btn btn-outline-info flex-shrink-0" onclick="escolherEnvioEmail()">
+                                    <i class="material-icons">forward_to_inbox</i>
+                                </button>
                             </div>
-                            <div class="col d-flex justify-content-center align-items-center mb-2 gap-1">
-                                <h6 class="mb-0">Whatsapp: <span class="user-select-all">(85) 9 8204-0219</span></h6>                           
+                            <div class="d-flex flex-wrap justify-content-center align-items-center flex-wrap">
+                                <h6 class="mb-0 me-2">Whatsapp: <span class="user-select-all">(85) 9 8204-0219</span></h6>                           
                                 <button type="button" class="btn btn-outline-info" onclick="abrirWpp()">
                                     <!-- <i class="material-icons">chat_bubble</i> -->
                                     <i class="fa-brands fa-whatsapp fa-2x"></i>
