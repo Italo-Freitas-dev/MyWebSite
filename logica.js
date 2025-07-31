@@ -20,7 +20,7 @@ function abrirLinkedin(){
 }
 
 function enviarEmail() {
-  const destinatario = "italomateusf1@gmail.com";
+  const destinatario = "italo.freitas.dev@gmail.com";
   const assunto = encodeURIComponent("Contato via portfólio");
   const corpo = encodeURIComponent("Olá Ítalo, vi seu portfólio e gostaria de conversar!");
   const link = `mailto:${destinatario}?subject=${assunto}&body=${corpo}`;
@@ -43,8 +43,8 @@ function escolherEnvioEmail() {
     popup.style.borderRadius = "12px";
     popup.innerHTML = `
       <h5>Escolha como deseja enviar o e-mail:</h5>
-      <button class="btn btn-outline-primary my-2" onclick="enviarEmailWindows()">Enviar pelo Windows</button>
-      <button class="btn btn-outline-success my-2" onclick="enviarEmailGmail()">Enviar pelo Gmail</button><br>
+      <button class="btn btn-outline-primary my-2" onclick="enviarEmailWindows()">App Nativo</button>
+      <button class="btn btn-outline-success my-2" onclick="enviarEmailGmail()">Gmail</button><br>
       <button class="btn btn-sm btn-secondary mt-2" onclick="fecharPopup()">Cancelar</button>
     `;
     document.body.appendChild(popup);
@@ -52,7 +52,7 @@ function escolherEnvioEmail() {
 }
 
 function enviarEmailWindows() {
-  const destinatario = "italomateusf1@gmail.com";
+  const destinatario = "italo.freitas.dev@gmail.com";
   const assunto = encodeURIComponent("Contato via portfólio");
   const corpo = encodeURIComponent("Olá Ítalo, vi seu portfólio e gostaria de conversar!");
   const link = `mailto:${destinatario}?subject=${assunto}&body=${corpo}`;
@@ -61,7 +61,7 @@ function enviarEmailWindows() {
 }
 
 function enviarEmailGmail() {
-  const destinatario = "italomateusf1@gmail.com";
+  const destinatario = "italo.freitas.dev@gmail.com";
   const assunto = encodeURIComponent("Contato via portfólio");
   const corpo = encodeURIComponent("Olá Ítalo, vi seu portfólio e gostaria de conversar!");
   const link = `https://mail.google.com/mail/?view=cm&fs=1&to=${destinatario}&su=${assunto}&body=${corpo}`;
